@@ -12,11 +12,11 @@ function Allroutes() {
         />
         <Route
           path="movies/toprated"
-          element={<Movies apiPath="movie/top_rated" title={"top rated"}  />}
+          element={<Movies apiPath="movie/top_rated" title={"top rated movies"}  />}
         />
         <Route
           path="movies/upcoming"
-          element={<Movies apiPath="movie/upcoming" title={"upcoming"}  />}
+          element={<Movies apiPath="movie/upcoming" title={"upcoming movies"}  />}
         />
         <Route path="movies/:movieId" element={<MovieDetail />} />
         <Route path="search" element={<MovieSearch apiPath="search/movie" />} />
