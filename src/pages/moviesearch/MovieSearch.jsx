@@ -14,7 +14,7 @@ function MovieSearch({ apiPath }) {
   };
   return (
     <>
-      <section>
+      <section className="w-full flex items-center justify-center">
         {movies.length == 0 ? (
           <div className="flex flex-col gap-5 items-center justify-center">
             <p className="text-xl capitalize text-white">
