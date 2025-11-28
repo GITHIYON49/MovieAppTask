@@ -1,9 +1,9 @@
 import { MovieList } from "../../components";
 
-function Movies({ apiPath }) {
+function Movies({ apiPath,title }) {
   return (
     <>
-      <MovieList apiPath={apiPath} />
+      <MovieList apiPath={apiPath} title={title} />
     </>
   );
 }

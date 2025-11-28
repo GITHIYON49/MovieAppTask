@@ -8,15 +8,15 @@ function Allroutes() {
         <Route path="/" element={<Home apiPath="movie/now_playing" />} />
         <Route
           path="movies/popular"
-          element={<Movies apiPath="movie/popular" />}
+          element={<Movies apiPath="movie/popular" title={"popular movies"} />}
         />
         <Route
           path="movies/toprated"
-          element={<Movies apiPath="movie/top_rated" />}
+          element={<Movies apiPath="movie/top_rated" title={"top rated"}  />}
         />
         <Route
           path="movies/upcoming"
-          element={<Movies apiPath="movie/upcoming" />}
+          element={<Movies apiPath="movie/upcoming" title={"upcoming"}  />}
         />
         <Route path="movies/:movieId" element={<MovieDetail />} />
         <Route path="search" element={<MovieSearch apiPath="search/movie" />} />
